@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+    <a href="Registrartion.html">Go to Registration page</a><br>
+    Name <br><input type="text" placeholder="Enter your name here" name="name"><br>
+    Mobile number <br><input type="number" placeholder="10 digit mobile number" name="M.no"><br>
+    Email <br><input type="email" placeholder="email address" name="email"><br>
+    Gender <br><input type="radio" name="gender" >Male   
+    <input type="radio" name="gender">Female  <br>
+    Leave your message <br><textarea name="t1" rows="20" cols="20"></textarea><br>
+    <select>
+        <option value="time1" >Morning at 9:00 AM</option>
+        <option value="time2" >Morning at 10:00 AM</option>
+        <option value="time3" >Evening at 6:00 PM</option>
+        <option value="time4" >Evening at 7:00 PM</option>
+        <option value="time5" >Night at 9:00 PM </option>
+        <option value="time6" >Night at 10:00 PM</option>
+    </select><br>
+    upload your Screenshot <br><input type="file" accept="image/*" id="file-input"><br>
+    <script>
+        const fileInput = document.getElementById('file-input');
+      
+        fileInput.addEventListener('change', (e) => doSomethingWithFiles(e.target.files));
+      </script>
+    <input type="submit" >
+        <input type="reset">
+</body>
+</html>

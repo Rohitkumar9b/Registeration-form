@@ -1,0 +1,52 @@
+div{
+    border-style: solid;
+    height:300px;
+}
+#d1
+{
+    background-color: antiquewhite;
+    width: 40%;
+    position: relative;
+    left: 100px;
+
+}
+#d2{
+    background-color: burlywood;
+    width: 50%;
+}
+#d3
+{
+    background-color: aqua;
+    width: 60%;
+    position: relative;
+    
+}
+#d31,#d32{
+    width:100px;
+    height:100px;
+}
+#d31
+{
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    
+}
+#d32
+{
+    background-color: green;
+    position: absolute;
+    left:300px;
+    top: 100px;
+}
+#d4
+{
+    background-color: lightcoral;
+    width: 70%;
+}
+#d5
+{
+    background-color: gray;
+    width: 80%;
+}
